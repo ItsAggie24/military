@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    animation: fadeIn 0.6s ease;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+    animation: slideDown 0.5s ease;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header p {
+    font-size: 1.1rem;
+    opacity: 0.95;
+}
+
+/* Controls Section */
+.controls-section {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    animation: slideUp 0.5s ease;
+}
+
+.category-select {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.category-select label {
+    font-weight: 600;
+    color: #333;
+    font-size: 1rem;
+}
+
+.category-select select {
+    padding: 10px 15px;
+    border: 2px solid #f5576c;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.3s ease;
+    flex: 1;
+    min-width: 200px;
+}
+
+.category-select select:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(245, 87, 108, 0.3);
+    border-color: #f093fb;
+}
+
+.category-select select:hover {
+    border-color: #f093fb;
+}
+
+/* Joke Section */
+.joke-section {
+    background: white;
+    border-radius: 15px;
+    padding: 35px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+    animation: slideUp 0.6s ease 0.1s both;
+}
+
+.joke-container {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    border-radius: 12px;
+    padding: 30px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    word-break: break-word;
+    animation: fadeIn 0.4s ease;
+}
+
+.joke-placeholder {
+    opacity: 0.8;
+    font-size: 1.1rem;
+}
+
+.joke-placeholder p {
+    margin: 0;
+}
+
+.joke-type-badge {
+    text-align: center;
+    margin-bottom: 20px;
+    min-height: 30px;
+}
+
+.joke-type-badge span {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* Buttons */
+.button-group {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    flex: 1;
+    min-width: 150px;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(245, 87, 108, 0.4);
+}
+
+.btn-primary:active {
+    transform: translateY(-1px);
+}
+
+.btn-secondary {
+    background: rgba(245, 87, 108, 0.1);
+    color: #f5576c;
+    border: 2px solid #f5576c;
+    flex: 1;
+    min-width: 120px;
+}
+
+.btn-secondary:hover {
+    background: #f5576c;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.btn-secondary:active {
+    transform: translateY(-1px);
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Loading Indicator */
+.loading {
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 15px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+/* Messages */
+.error-message,
+.success-message {
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    animation: slideDown 0.3s ease;
+}
+
+.error-message {
+    background: #ff6b6b;
+    color: white;
+}
+
+.success-message {
+    background: #51cf66;
+    color: white;
+}
+
+/* Stats Section */
+.stats-section {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    font-weight: 600;
+    animation: slideUp 0.7s ease 0.2s both;
+}
+
+.stats-section span {
+    color: #ffeb3b;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+/* Animations */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header p {
+        font-size: 0.95rem;
+    }
+
+    .joke-section {
+        padding: 25px;
+    }
+
+    .joke-container {
+        padding: 25px;
+        min-height: 130px;
+        font-size: 1.1rem;
+    }
+
+    .button-group {
+        gap: 10px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .category-select {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .category-select select {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .header p {
+        font-size: 0.85rem;
+    }
+
+    .joke-section {
+        padding: 20px;
+    }
+
+    .joke-container {
+        padding: 20px;
+        font-size: 1rem;
+        min-height: 120px;
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
