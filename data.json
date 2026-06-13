@@ -11,15 +11,15 @@
     {
       "id": 1,
       "title": "GenAi",
-      "url": "https://auth.genai.mil/realms/ai/protocol/openid-connect/auth?approval_prompt=force&client_id=cluster-wide-oauth2-proxy&code_challenge=nEkYbcMAynwosw944o1orp-i6KAuTFJ_DQ-V9nhOrjY&code_challenge_method=S256&redirect_uri=https%3A%2F%2Fgenai.mil%2Foauth2%2Fcallback&response_type=code&scope=openid+email+profile&state=Ar6jZSCCR7B_LJwC3wyVIjYtJBNrqS6qDxg-pNQcppM%3A%2Foauth2%2Fcallback%3Fstate%3D97SCFlRgZ4yLJ8ThvB2CGue2IJ3IrrNV1CNFQy_7Tew%253A%252F%26session_state%3DhKYufYNf8dLKysusjSrkjveC%26iss%3Dhttps%253A%252F%252Fauth.genai.mil%252Frealms%252Fai%26code%3De81e6965-39f8-5ba9-a4bc-bd92dfd36d69.hKYufYNf8dLKysusjSrkjveC.4a30432e-3e74-42ed-a1ad-68a9b7b9c534"
-      "category": "Quick Links"
+      "url": "https://auth.genai.mil/realms/ai/protocol/openid-connect/auth?approval_prompt=force&client_id=cluster-wide-oauth2-proxy&code_challenge=nEkYbcMAynwosw944o1orp-i6KAuTFJ_DQ-V9nhOrjY&code_challenge_method=S256&redirect_uri=https%3A%2F%2Fgenai.mil%2Foauth2%2Fcallback&response_type=code&scope=openid+email+profile&state=Ar6jZSCCR7B_LJwC3wyVIjYtJBNrqS6qDxg-pNQcppM%3A%2Foauth2%2Fcallback%3Fstate%3D97SCFlRgZ4yLJ8ThvB2CGue2IJ3IrrNV1CNFQy_7Tew%253A%252F%26session_state%3DhKYufYNf8dLKysusjSrkjveC%26iss%3Dhttps%253A%252F%252Fauth.genai.mil%252Frealms%252Fai%26code%3De81e6965-39f8-5ba9-a4bc-bd92dfd36d69.hKYufYNf8dL,KysusjSrkjveC.4a30432e-3e74-42ed-a1ad-68a9b7b9c534"
+      "category": "Tools"
     },
     {
       "id": 2,
-      "title": "Stack Overflow",
-      "url": "https://stackoverflow.com",
+      "title": "PSFB Bulletin Board",
+      "url": "https://www.petersonschriever.spaceforce.mil/Newsroom/PSFB-Bulletin/",
       "description": "Q&A platform for programmers",
-      "category": "Learning"
+      "category": "SF Stuff"
     },
     {
       "id": 3,
