@@ -1,0 +1,68 @@
+{
+  "categories": [
+    "Development",
+    "Documentation",
+    "Design",
+    "Resources",
+    "Tools",
+    "Learning"
+  ],
+  "links": [
+    {
+      "id": 1,
+      "title": "GitHub",
+      "url": "https://github.com",
+      "description": "Version control and collaboration platform",
+      "category": "Development"
+    },
+    {
+      "id": 2,
+      "title": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "description": "Q&A platform for programmers",
+      "category": "Learning"
+    },
+    {
+      "id": 3,
+      "title": "MDN Web Docs",
+      "url": "https://developer.mozilla.org",
+      "description": "Comprehensive web development documentation",
+      "category": "Documentation"
+    },
+    {
+      "id": 4,
+      "title": "Figma",
+      "url": "https://figma.com",
+      "description": "Design and prototyping tool",
+      "category": "Design"
+    },
+    {
+      "id": 5,
+      "title": "VS Code",
+      "url": "https://code.visualstudio.com",
+      "description": "Free code editor by Microsoft",
+      "category": "Tools"
+    },
+    {
+      "id": 6,
+      "title": "Unsplash",
+      "url": "https://unsplash.com",
+      "description": "Free stock photos for projects",
+      "category": "Resources"
+    },
+    {
+      "id": 7,
+      "title": "Tailwind CSS",
+      "url": "https://tailwindcss.com",
+      "description": "Utility-first CSS framework",
+      "category": "Documentation"
+    },
+    {
+      "id": 8,
+      "title": "Coursera",
+      "url": "https://coursera.org",
+      "description": "Online learning platform with courses",
+      "category": "Learning"
+    }
+  ]
+}
