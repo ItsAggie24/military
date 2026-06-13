@@ -3,7 +3,10 @@
     "SF Stuff",
     "My Stuff",
     "D-Flt",
-    "Projects",
+    "RAT",
+    "UFPM",
+    "IDP",
+    "CoC",
     "Tools",
     "Other"
   ],
@@ -23,38 +26,38 @@
     },
     {
       "id": 3,
-      "title": "MDN Web Docs",
-      "url": "https://developer.mozilla.org",
+      "title":Royal Spark Innovation Lab",
+      "url": "https://usaf.dps.mil/sites/100ARW/CPI/SITePAGES/CPI.aspx",
       "description": "Comprehensive web development documentation",
-      "category": "Documentation"
-    },
-    {
-      "id": 4,
-      "title": "Figma",
-      "url": "https://figma.com",
-      "description": "Design and prototyping tool",
-      "category": "Design"
-    },
-    {
-      "id": 5,
-      "title": "VS Code",
-      "url": "https://code.visualstudio.com",
-      "description": "Free code editor by Microsoft",
       "category": "Tools"
     },
     {
+      "id": 4,
+      "title": "EPR Bullets",
+      "url": "https://www.eprbullets.com/",
+      "description": "Design and prototyping tool",
+      "category": "Tools"
+    },
+    {
+      "id": 5,
+      "title": "AF RAT SharePoint",
+      "url": "https://lms-jets.cce.af.mil/moodle/mod/url/view.php?id=186743",
+      "description": "Free code editor by Microsoft",
+      "category": "RAT"
+    },
+    {
       "id": 6,
-      "title": "Unsplash",
-      "url": "https://unsplash.com",
+      "title": "Old Sheet",
+      "url": "https://usaf.dps.mil/sites/SpOC-SBD1/PSFB/21msg/21lrs/rat2/SiteAssets/Event-Registration/erav.aspx",
       "description": "Free stock photos for projects",
-      "category": "Resources"
+      "category": "RAT"
     },
     {
       "id": 7,
-      "title": "Tailwind CSS",
-      "url": "https://tailwindcss.com",
+      "title": "LRS RAT SharePoint",
+      "url": "https://usaf.dps.mil/sites/SpOC-SBD1/PSFB/21msg/21lrs/RAT/SitePages/Home.aspx",
       "description": "Utility-first CSS framework",
-      "category": "Documentation"
+      "category": "RAT"
     },
     {
       "id": 8,
@@ -63,5 +66,16 @@
       "description": "Online learning platform with courses",
       "category": "Learning"
     }
+      "id": 8,
+      "title": "Coursera",
+      "url": "https://coursera.org",
+      "description": "Online learning platform with courses",
+      "category": "Learning"
+
+
+
+
+    },
+    
   ]
 }
