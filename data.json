@@ -62,10 +62,129 @@
     },
     {
       "id": 8,
-      "title": "Coursera",
-      "url": "https://coursera.org",
-      "description": "Online learning platform with courses",
-      "category": "Other"
-    }
-  ]
+      "title": "D-Flt Slides",
+      "url": "https://usaf.dps.mil/:p:/r/teams/DFlightLeadership-SectionLeads/_layouts/15/Doc.aspx",
+      "description": "Weekly Slides",
+      "category": "D-Flt"
+    },
+    {
+      "id": 9,
+      "title": "Bldg 123 Reservations",
+      "url": "https://coursera.ohttps://usaf.dps.mil/sites/SpOC-SBD1/PSFB/21msg/21lrs/SitePages/Reserve-Location.aspx",
+      "description": "Bldg 123 reserve",
+      "category": "D-Flt"
+    },
+    {
+      "id": 10,
+      "title": "TDY Support",
+      "url": "https://usaf.dps.mil/sites/SpOC-SBD1/PSG-Agencies/XP/PSGAR-Agencies/PlansBranch/SitePages/Inbound-TDY-Support-Request.aspx",
+      "description": "PSFB TDY Support",
+      "category": "D-Flt"
+    },
+    {
+      "id": 11,
+      "title": "BaS&E",
+      "url": "https://base.cce.af.mil/main.htm#/collect/sites",
+      "description": "BSP",
+      "category": "D-Flt"
+    },
+    {
+      "id": 12,
+      "title": "BSP Help",
+      "url": "https://usaf.dps.mil/:w:/r/teams/13569/LogPlans/_layouts/15/Doc.aspx",
+      "description": "BSP Support",
+      "category": "D-Flt"
+    },
+    {
+      "id": 13,
+      "title": "Protocol SharePoint",
+      "url": "https://usaf.dps.mil/sites/SpOC-SBD1/PSG-Agencies/Protocol/SitePages/Home.aspx",
+      "description": "Protocol SharePoint",
+      "category": "CoC"
+    },
+    {
+      "id": 14,
+      "title": "AO Brief",
+      "url": "https://usaf.dps.mil/:w:/r/sites/SpOC-SBD1/PSG-Agencies/Protocol/_layouts/15/Doc.aspx?sourcedoc=%7B4F8456BA-90D6-49FD-B14A-F54972EA542E%7D&file=START%20HERE!_Peterson%20Final%20(1).docx&action=default&mobileredirect=true&web=",
+      "description": "AO Brief",
+      "category": "CoC"
+    },
+    {
+      "id": 15,
+      "title": "Ceremonial Request",
+      "url": "https://usaf.dps.mil/sites/SpOC-SBD1/PSG-Agencies/Protocol/Lists/Ceremonial%20Items%20Request%20Form/Protocol.aspx?viewpath=%2Fsites%2FSpOC%2DSBD1%2FPSG%2DAgencies%2FProtocol%2FLists%2FCeremonial%20Items%20Request%20Form%2FProtocol%2Easpx",
+      "description": "Ceremonial Request",
+      "category": "CoC"
+    },
+    {
+      "id": 16,
+      "title": "CoC Checklist",
+      "url": "https://usaf.dps.mil/:x:/r/teams/21LRSALL2-ChangeofCommand/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7Be1001f01-1b32-4b16-b5c1-f7bed9ea7402%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1774544391806&web=1",
+      "description": "CoC Checklist",
+      "category": "CoC"
+    },
+    {
+      "id": 17,
+      "title": "Event Book",
+      "url": "https://usaf.dps.mil/:w:/r/teams/21LRSALL2-ChangeofCommand/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7Be114ab46-49c3-4879-a821-e856fde8c260%7D&wdExp=TEAMS-TREATMENT&web=1",
+      "description": "Event Book",
+      "category": "CoC"
+    },
+    {
+      "id": 18,
+      "title": "E-invite Responses",
+      "url": "https://forms.osi.apps.mil/Pages/DesignPageV2.aspx?subpage=design&id=jbExg4ct70ijX6yIGOv5tE27Th9fam9LgPlEvC_ChbtUNlE5NEQ1QlZDMzE5NkVZN0kyVkZPTUtYNC4u&analysis=true",
+      "description": "CoC RSVP",
+      "category": "CoC"
+    },
+    {
+      "id": 19,
+      "title": "CoC Teams",
+      "url": "https://dod.teams.microsoft.us/l/channel/19%3Adod%3A009f0a2d28dd475eb0003297a85fe622%40thread.tacv2/Change%20of%20Command?groupId=bd3e3357-562e-4ab1-87d7-d8ffd13adeb1&tenantId=8331b18d-2d87-48ef-a35f-ac8818ebf9b4&ngc=true",
+      "description": "CoC Teams Page",
+      "category": "CoC"
+    },
+    {
+      "id": 20,
+      "title": "IDP Rewrite",
+      "url": "https://usaf.dps.mil/:f:/r/teams/UnitDeploymentManagerHub/Shared%20Documents/IDRC%20Homepage/IDP%20Rewrite?csf=1&web=1&e=rpVv5U",
+      "description": "_&I IDP Folder",
+      "category": "IDP"
+    },
+    {
+      "id": 21,
+      "title": "UFPM Teams",
+      "url": "https://dod.teams.microsoft.us/l/channel/19%3Adod%3Abef9c8ded5d24bfeabe5ac7ac56e105c%40thread.tacv2/Fitness%20Hub?groupId=bd3e3357-562e-4ab1-87d7-d8ffd13adeb1&tenantId=8331b18d-2d87-48ef-a35f-ac8818ebf9b4&ngc=true",
+      "description": "UFPM Teams Page",
+      "category": "UFPM"
+    },
+    {
+      "id": 22,
+      "title": "IMSC Fitness Sharepoint",
+      "url": "https://usaf.dps.mil/sites/10042/SitePages/Fitness.aspx",
+      "description": "AF-wide Fitness SharePoint",
+      "category": "UFPM"
+    },
+    {
+      "id": 23,
+      "title": "469 Tracker",
+      "url": "https://usaf.dps.mil/:x:/r/teams/21LRSALL2-UFPMUFACPTLHub/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7Bacfd5a90-ea8f-43f1-9ac2-d40c50a7b463%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1774905048589&web=1",
+      "description": "Med Profiles",
+      "category": "UFPM"
+    },
+    {
+      "id": 24,
+      "title": "Attendance Tracker",
+      "url": "https://usaf.dps.mil/:x:/r/teams/21LRSALL2-UFPMUFACPTLHub/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B8e559a89-34a3-48c2-b523-1b88e2215c48%7D&wdExp=TEAMS-TREATMENT&web=1",
+      "description": "PCP Attendance",
+      "category": "UFPM"
+    },
+    {
+      "id": 25,
+      "title": "PCP & PFRA Schedule",
+      "url": "https://usaf.dps.mil/:x:/r/teams/21LRSALL2-UFPMUFACPTLHub/_layouts/15/Doc.aspx?action=edit&sourcedoc=%7B0dec95b9-b8f4-4b4e-8ffd-bd39ef2991d9%7D&wdExp=TEAMS-TREATMENT&web=1&TeamsCID=9b515e98-f2d5-40d3-8e29-95b47edd61f2",
+      "description": "Flight & Member",
+      "category": "UFPM"
+    },     
+    ]
 }
